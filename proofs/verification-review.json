@@ -1,0 +1,85 @@
+{
+  "scope": "review",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-20T20:05:48.602Z",
+  "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+  "instances": [
+    {
+      "id": "review",
+      "contract": "0x20C53f515445d16b9Ba40484B5e838e3a557f549",
+      "phase": "REVIEW",
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 0,
+      "pool_balance": 0,
+      "sponsor_balance": 24,
+      "rounds": [],
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "review-deployment",
+      "hash": "0xee76a696217f9b95d136dea8e8c76198afa1c43d9c54962a29c4e8ea6eaccabe",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-assess",
+      "hash": "0x735bcbf954b4351c70d1bfc273e32daf27a8d93a380b10131554273fe19b6599",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-reject-unresolved-fund",
+      "hash": "0x3f5e7c75fd249e85129b3ed2bc2b6e9c9e947de267ad3ff54d484d3cdb83cde7",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-reject-unresolved-distribute",
+      "hash": "0x8f4f6e8e05e30cc6b65c2895d7c5d2507032efbae895ed74931c5ef97a8c611b",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

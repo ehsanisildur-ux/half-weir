@@ -1,0 +1,117 @@
+{
+  "assessment": {
+    "claims": {
+      "anchors": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "claims": [
+        1,
+        3,
+        7
+      ]
+    },
+    "source": {
+      "claimants": [
+        "Aster",
+        "Briar",
+        "Cedar"
+      ],
+      "clauses": [
+        "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+        "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+        "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+      ],
+      "pool": "restitution-pool"
+    }
+  },
+  "awarded": [
+    2,
+    6,
+    14
+  ],
+  "configuration": {
+    "beneficiaries": [
+      "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+      "0x9bb899091b82b8598e87be095cba28003379205d",
+      "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+    ],
+    "endowment_ticks": 22,
+    "labels": [
+      "Aster",
+      "Briar",
+      "Cedar"
+    ],
+    "pool": "restitution-pool",
+    "repository": "ehsanisildur-ux/half-weir",
+    "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+    "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+  },
+  "credits": [
+    2,
+    6,
+    14
+  ],
+  "funded_total": 22,
+  "fundings": [
+    5,
+    11,
+    6
+  ],
+  "phase": "SATISFIED",
+  "pool_balance": 0,
+  "rounds": [
+    {
+      "delta": [
+        1,
+        2,
+        2
+      ],
+      "funded_total": 5,
+      "regime": "AWARDS",
+      "target": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "delta": [
+        0,
+        1,
+        10
+      ],
+      "funded_total": 16,
+      "regime": "LOSSES",
+      "target": [
+        1,
+        3,
+        12
+      ]
+    },
+    {
+      "delta": [
+        1,
+        3,
+        2
+      ],
+      "funded_total": 22,
+      "regime": "LOSSES",
+      "target": [
+        2,
+        6,
+        14
+      ]
+    }
+  ],
+  "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+  "sponsor_balance": 0,
+  "transfers": []
+}

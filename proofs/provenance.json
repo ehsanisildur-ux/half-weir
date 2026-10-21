@@ -1,0 +1,28 @@
+{
+  "repository": "ehsanisildur-ux/half-weir",
+  "network": "studionet",
+  "chain_id": 61999,
+  "runs": [
+    {
+      "scenario": "staircase",
+      "workflow_run": "39488078755",
+      "url": "https://github.com/ehsanisildur-ux/half-weir/actions/runs/39488078755",
+      "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+      "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb"
+    },
+    {
+      "scenario": "lopsided",
+      "workflow_run": "39488084973",
+      "url": "https://github.com/ehsanisildur-ux/half-weir/actions/runs/39488084973",
+      "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+      "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb"
+    },
+    {
+      "scenario": "review",
+      "workflow_run": "39488092353",
+      "url": "https://github.com/ehsanisildur-ux/half-weir/actions/runs/39488092353",
+      "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+      "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb"
+    }
+  ]
+}

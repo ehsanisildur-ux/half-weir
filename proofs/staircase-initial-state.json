@@ -1,0 +1,38 @@
+{
+  "assessment": null,
+  "awarded": [
+    0,
+    0,
+    0
+  ],
+  "configuration": {
+    "beneficiaries": [
+      "0x682ba78df577b2bd96f02e56491a53441574f73f",
+      "0xf9ff53bc683e1eac2f8fd82fde8174e9dcd0f3ee",
+      "0xcc4b8f7a0217ada163d99766b60dad4e7bd62459"
+    ],
+    "endowment_ticks": 24,
+    "labels": [
+      "Aster",
+      "Briar",
+      "Cedar"
+    ],
+    "pool": "restitution-pool",
+    "repository": "ehsanisildur-ux/half-weir",
+    "sha256": "770d28ce0818d3a499a299288e50ada58f336044881ab277802de8e05aa49f36",
+    "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/staircase.json"
+  },
+  "credits": [
+    0,
+    0,
+    0
+  ],
+  "funded_total": 0,
+  "fundings": [],
+  "phase": "UNASSESSED",
+  "pool_balance": 0,
+  "rounds": [],
+  "sponsor": "0x1abc3a9080ed505385b5669c4ab3d80cdd1253eb",
+  "sponsor_balance": 24,
+  "transfers": []
+}

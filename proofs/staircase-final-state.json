@@ -1,0 +1,139 @@
+{
+  "assessment": {
+    "claims": {
+      "anchors": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "claims": [
+        2,
+        4,
+        6
+      ]
+    },
+    "source": {
+      "claimants": [
+        "Aster",
+        "Briar",
+        "Cedar"
+      ],
+      "clauses": [
+        "Aster's preliminary estimate of twelve credits was withdrawn and has no operative effect.",
+        "Aster's finalized eligible claim was five whole credits. A completed reimbursement of three whole credits discharged part of that same claim; only the unpaid remainder remains eligible.",
+        "Briar has a finalized eligible claim of four whole credits, with no completed reimbursement against it. A suggestion to pay one credit next month is only proposed and has not discharged anything.",
+        "Cedar's finalized eligible claim was nine whole credits. Three whole credits have already been reimbursed against that same claim, and only the remaining unpaid balance is eligible."
+      ],
+      "pool": "restitution-pool"
+    }
+  },
+  "awarded": [
+    4,
+    8,
+    12
+  ],
+  "configuration": {
+    "beneficiaries": [
+      "0x682ba78df577b2bd96f02e56491a53441574f73f",
+      "0xf9ff53bc683e1eac2f8fd82fde8174e9dcd0f3ee",
+      "0xcc4b8f7a0217ada163d99766b60dad4e7bd62459"
+    ],
+    "endowment_ticks": 24,
+    "labels": [
+      "Aster",
+      "Briar",
+      "Cedar"
+    ],
+    "pool": "restitution-pool",
+    "repository": "ehsanisildur-ux/half-weir",
+    "sha256": "770d28ce0818d3a499a299288e50ada58f336044881ab277802de8e05aa49f36",
+    "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/staircase.json"
+  },
+  "credits": [
+    3,
+    9,
+    12
+  ],
+  "funded_total": 24,
+  "fundings": [
+    6,
+    6,
+    6,
+    6
+  ],
+  "phase": "SATISFIED",
+  "pool_balance": 0,
+  "rounds": [
+    {
+      "delta": [
+        2,
+        2,
+        2
+      ],
+      "funded_total": 6,
+      "regime": "AWARDS",
+      "target": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "delta": [
+        0,
+        2,
+        4
+      ],
+      "funded_total": 12,
+      "regime": "AWARDS",
+      "target": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "delta": [
+        0,
+        2,
+        4
+      ],
+      "funded_total": 18,
+      "regime": "LOSSES",
+      "target": [
+        2,
+        6,
+        10
+      ]
+    },
+    {
+      "delta": [
+        2,
+        2,
+        2
+      ],
+      "funded_total": 24,
+      "regime": "LOSSES",
+      "target": [
+        4,
+        8,
+        12
+      ]
+    }
+  ],
+  "sponsor": "0x1abc3a9080ed505385b5669c4ab3d80cdd1253eb",
+  "sponsor_balance": 0,
+  "transfers": [
+    {
+      "amount": 1,
+      "recipient": 1,
+      "sender": 0
+    }
+  ]
+}

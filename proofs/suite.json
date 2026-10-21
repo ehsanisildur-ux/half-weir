@@ -1,0 +1,98 @@
+[
+  {
+    "id": "staircase",
+    "args": [
+      "ehsanisildur-ux/half-weir",
+      "restitution-pool",
+      [
+        "Aster",
+        "Briar",
+        "Cedar"
+      ],
+      [
+        "0x682ba78df577b2bd96f02e56491a53441574f73f",
+        "0xf9ff53bc683e1eac2f8fd82fde8174e9dcd0f3ee",
+        "0xcc4b8f7a0217ada163d99766b60dad4e7bd62459"
+      ],
+      "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/staircase.json",
+      "770d28ce0818d3a499a299288e50ada58f336044881ab277802de8e05aa49f36",
+      24
+    ],
+    "contract": "0xe83355E4E5D7645f2FDBcE2e05AF641453245961",
+    "deployment": "0xbc2254af29cc4729444e22eca5cf81438ecc52c8c5d59c6d096c9bb7a8c5201a",
+    "accounts": [
+      "0x1abc3a9080ed505385b5669c4ab3d80cdd1253eb",
+      "0x682ba78df577b2bd96f02e56491a53441574f73f",
+      "0xf9ff53bc683e1eac2f8fd82fde8174e9dcd0f3ee",
+      "0xcc4b8f7a0217ada163d99766b60dad4e7bd62459"
+    ],
+    "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb",
+    "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "lopsided",
+    "args": [
+      "ehsanisildur-ux/half-weir",
+      "restitution-pool",
+      [
+        "Aster",
+        "Briar",
+        "Cedar"
+      ],
+      [
+        "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+        "0x9bb899091b82b8598e87be095cba28003379205d",
+        "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+      ],
+      "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json",
+      "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+      22
+    ],
+    "contract": "0x89704E3a23328fEF265bCeB31fAcc976551e29d9",
+    "deployment": "0x7eac7ee01e02774dd432d3fd206f8880afb531a88130022cf9d4362ba967b8bd",
+    "accounts": [
+      "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+      "0x9bb899091b82b8598e87be095cba28003379205d",
+      "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+    ],
+    "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb",
+    "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "review",
+    "args": [
+      "ehsanisildur-ux/half-weir",
+      "restitution-pool",
+      [
+        "Aster",
+        "Briar",
+        "Cedar"
+      ],
+      [
+        "0x9e7bc3927fde2aa4a862bf20d267064182c8e7ef",
+        "0x9775d85a2ebb1fb6b053ea6c1013aa5f4e443c01",
+        "0x885d9a909a3444d87596db6c0c6b05f39f5e6c21"
+      ],
+      "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/review.json",
+      "6218a9451b77592cfba7c40e8b4d91a14deb7b6719fbb3d5b290364c524d4267",
+      24
+    ],
+    "contract": "0x20C53f515445d16b9Ba40484B5e838e3a557f549",
+    "deployment": "0xee76a696217f9b95d136dea8e8c76198afa1c43d9c54962a29c4e8ea6eaccabe",
+    "accounts": [
+      "0x4021a12347cb51db0c0cdf867cb8a0771ba1e12b",
+      "0x9e7bc3927fde2aa4a862bf20d267064182c8e7ef",
+      "0x9775d85a2ebb1fb6b053ea6c1013aa5f4e443c01",
+      "0x885d9a909a3444d87596db6c0c6b05f39f5e6c21"
+    ],
+    "fixture_revision": "8376c6b5046439781cbfbf4ff1a1655aaaa85fcb",
+    "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]

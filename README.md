@@ -2,6 +2,8 @@
 
 A standalone GenLayer allocator for a replenished pool that cannot satisfy all declared claims at once. Consensus interprets a frozen public claim record; cumulative funding advances a discrete Talmud-rule allocation. Only newly owed ticks are paid, even if a beneficiary has already transferred earlier payouts.
 
+**Deployed and exercised on gasless StudioNet.** [Primary contract explorer](https://explorer-studio.genlayer.com/address/0xe83355E4E5D7645f2FDBcE2e05AF641453245961) · [26 verified onchain receipts](proofs/README.md) · [Passing CI](https://github.com/ehsanisildur-ux/half-weir/actions/runs/39488080426).
+
 **Native credits are abstract contract state.** One whole record credit equals two native ticks. These ticks are not GEN, cash, redeemable tokens, legal claims or proof of service delivery. A downstream consumer must actually enforce any entitlement represented by a balance.
 
 The sponsor fixes 2–5 beneficiaries, a source repository/commit URL/hash and a bounded native endowment. Anyone can assess the complete record. Leader and validators independently fetch it, derive every finalized unpaid amount, and audit each amount and source anchor. Proposed reimbursements do not count as paid; withdrawn estimates do not become claims. An unresolved amount is `-1`, never omitted or treated as zero. Any unresolved claimant places the whole pool in REVIEW and blocks funding.
@@ -25,6 +27,8 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 Direct tests explicitly execute validator callbacks with mocked web/model answers. Allocation tests compare binary-search water filling against sorted marginal tickets and an exact Fraction-based continuous reference. The live suite uses real GenVM consensus, public web acquisition, four signing wallets, and full before/after state checks.
+
+76 direct tests and seven transport tests pass. Coverage includes 1,625 exhaustive estates, 96 generated five-claimant cases, tranche partition independence, a transfer before subsequent funding, quantum rounding, exact complementary-estate duality, and JavaScript replay of all three direct scenario traces.
 
 ## Attribution
 

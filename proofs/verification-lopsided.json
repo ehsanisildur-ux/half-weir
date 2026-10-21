@@ -1,0 +1,193 @@
+{
+  "scope": "lopsided",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-20T20:09:04.702Z",
+  "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+  "instances": [
+    {
+      "id": "lopsided",
+      "contract": "0x89704E3a23328fEF265bCeB31fAcc976551e29d9",
+      "phase": "SATISFIED",
+      "credits": [
+        2,
+        6,
+        14
+      ],
+      "awarded": [
+        2,
+        6,
+        14
+      ],
+      "funded_total": 22,
+      "pool_balance": 0,
+      "sponsor_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        },
+        {
+          "delta": [
+            1,
+            3,
+            2
+          ],
+          "funded_total": 22,
+          "regime": "LOSSES",
+          "target": [
+            2,
+            6,
+            14
+          ]
+        }
+      ],
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "lopsided-deployment",
+      "hash": "0x7eac7ee01e02774dd432d3fd206f8880afb531a88130022cf9d4362ba967b8bd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-assess",
+      "hash": "0xb3019aee580be3a452b4205cf29cd63a56a4d6677b6b0e75a380adefa9c8813a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-fund-5",
+      "hash": "0x919995ffec8a0958618412a428273c65ff20c581ebf76e0dac8d04a16d258593",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-distribute-5",
+      "hash": "0xc463be00a520a127ec720a1c0ce3bccdb0eb9c60222c3b1b727bd165b5b5c772",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-fund-16",
+      "hash": "0xba114382a411cb05365aeac03335a6700dce0cb93abbb3921b446f1c85baa0cd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-distribute-16",
+      "hash": "0x34ea9ad2e93cc12f3a989bd1a2d01c816304a6a562c9b744f6aee6b5ce0cf050",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-fund-22",
+      "hash": "0xb491a5a408e9b8b62f8b43e1459f1ec28efedf419d28c2347198a5ce22475210",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-reject-overfund",
+      "hash": "0xfd05fcad37d5be6b5104d98003e158140d2e268affe17f1af4c8e7af93cc2447",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "lopsided-distribute-22",
+      "hash": "0xb9ba7be6af62f8687f451133d072066940f85ef05cbae17a839bb5951bb1823a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

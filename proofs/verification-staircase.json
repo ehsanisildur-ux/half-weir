@@ -1,0 +1,265 @@
+{
+  "scope": "staircase",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-20T20:11:33.666Z",
+  "source_sha256": "a55fcd466bcfc2a4dd5e28963591f8e16a19bc15b209abd3a5076666c83d9f45",
+  "instances": [
+    {
+      "id": "staircase",
+      "contract": "0xe83355E4E5D7645f2FDBcE2e05AF641453245961",
+      "phase": "SATISFIED",
+      "credits": [
+        3,
+        9,
+        12
+      ],
+      "awarded": [
+        4,
+        8,
+        12
+      ],
+      "funded_total": 24,
+      "pool_balance": 0,
+      "sponsor_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            2,
+            2,
+            2
+          ],
+          "funded_total": 6,
+          "regime": "AWARDS",
+          "target": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            2,
+            4
+          ],
+          "funded_total": 12,
+          "regime": "AWARDS",
+          "target": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "delta": [
+            0,
+            2,
+            4
+          ],
+          "funded_total": 18,
+          "regime": "LOSSES",
+          "target": [
+            2,
+            6,
+            10
+          ]
+        },
+        {
+          "delta": [
+            2,
+            2,
+            2
+          ],
+          "funded_total": 24,
+          "regime": "LOSSES",
+          "target": [
+            4,
+            8,
+            12
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "amount": 1,
+          "recipient": 1,
+          "sender": 0
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "label": "staircase-deployment",
+      "hash": "0xbc2254af29cc4729444e22eca5cf81438ecc52c8c5d59c6d096c9bb7a8c5201a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-assess",
+      "hash": "0x07ca5e9dd8005566b1fce2f208d8402e19a603c05f9d3d50d02fb815dd630b6c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-reject-nonsponsor",
+      "hash": "0xd4bd446ed6646d0accbd402b3292561ddcce9e81a01d6bf5ae2aaedc5cbfa2c8",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-fund-6",
+      "hash": "0x0a782108fb47037772548d58370e9acd422ab2f93d9bbfd2957b60317a5643f1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-distribute-6",
+      "hash": "0xe44c0d3b906d1f89e04c4144d7cbd7a7ec84003281e4d868dffe4700c51237da",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-transfer-before-topup",
+      "hash": "0x072b47740cf1aa934a2887b30b27d7f1247dbc38b174d1e25c72f47b5346e415",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-reject-empty-distribute",
+      "hash": "0x1f9fdf93e5b75783fbe2d9ac6a4f0133666861dbef933756d0fe639d6dc1180c",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-fund-12",
+      "hash": "0x08864fa1abe3da80025a6ce9b18cb4b05c688b5333656f28729dd3d5820e7b56",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-distribute-12",
+      "hash": "0xbaa4703ccbfa779a44ffebf89722eca43ab27049e79f213a42cbe629d4731b92",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-fund-18",
+      "hash": "0x7ef3b89080539742883820232c88fa672c464e62d6551d88de63aa297facba86",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-distribute-18",
+      "hash": "0xdaa8ca39030e172ac383628a90379041c784c2716b455c22891e5bdd555e9936",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-fund-24",
+      "hash": "0x36e7b7f8cf4cae3d2ac1d22f1217412d05646ea2242a1cfa10fdd4ee05b3c9b5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "staircase-distribute-24",
+      "hash": "0x75dae98e3b5b64034c1398b452c7abb518a0ed31fb666d7309fa6cd7dfeeb4a7",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

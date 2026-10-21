@@ -1,0 +1,1472 @@
+[
+  {
+    "label": "lopsided-assess",
+    "caller": 3,
+    "method": "assess",
+    "args": [],
+    "transaction": "0xb3019aee580be3a452b4205cf29cd63a56a4d6677b6b0e75a380adefa9c8813a",
+    "state_before": {
+      "assessment": null,
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 0,
+      "fundings": [],
+      "phase": "UNASSESSED",
+      "pool_balance": 0,
+      "rounds": [],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 22,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 0,
+      "fundings": [],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 22,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-fund-5",
+    "caller": 0,
+    "method": "fund",
+    "args": [
+      5
+    ],
+    "transaction": "0x919995ffec8a0958618412a428273c65ff20c581ebf76e0dac8d04a16d258593",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 0,
+      "fundings": [],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 22,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 5,
+      "fundings": [
+        5
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 5,
+      "rounds": [],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 17,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-distribute-5",
+    "caller": 1,
+    "method": "distribute",
+    "args": [],
+    "transaction": "0xc463be00a520a127ec720a1c0ce3bccdb0eb9c60222c3b1b727bd165b5b5c772",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        0,
+        0,
+        0
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        0,
+        0,
+        0
+      ],
+      "funded_total": 5,
+      "fundings": [
+        5
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 5,
+      "rounds": [],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 17,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        2,
+        2
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        2,
+        2
+      ],
+      "funded_total": 5,
+      "fundings": [
+        5
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 17,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-fund-16",
+    "caller": 0,
+    "method": "fund",
+    "args": [
+      11
+    ],
+    "transaction": "0xba114382a411cb05365aeac03335a6700dce0cb93abbb3921b446f1c85baa0cd",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        2,
+        2
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        2,
+        2
+      ],
+      "funded_total": 5,
+      "fundings": [
+        5
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 17,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        2,
+        2
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        2,
+        2
+      ],
+      "funded_total": 16,
+      "fundings": [
+        5,
+        11
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 11,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 6,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-distribute-16",
+    "caller": 2,
+    "method": "distribute",
+    "args": [],
+    "transaction": "0x34ea9ad2e93cc12f3a989bd1a2d01c816304a6a562c9b744f6aee6b5ce0cf050",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        2,
+        2
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        2,
+        2
+      ],
+      "funded_total": 16,
+      "fundings": [
+        5,
+        11
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 11,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 6,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 16,
+      "fundings": [
+        5,
+        11
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 6,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-fund-22",
+    "caller": 0,
+    "method": "fund",
+    "args": [
+      6
+    ],
+    "transaction": "0xb491a5a408e9b8b62f8b43e1459f1ec28efedf419d28c2347198a5ce22475210",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 16,
+      "fundings": [
+        5,
+        11
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 6,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 22,
+      "fundings": [
+        5,
+        11,
+        6
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 6,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 0,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-reject-overfund",
+    "caller": 0,
+    "method": "fund",
+    "args": [
+      1
+    ],
+    "error": "[EXPECTED] Funding exceeds available capacity",
+    "transaction": "0xfd05fcad37d5be6b5104d98003e158140d2e268affe17f1af4c8e7af93cc2447",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 22,
+      "fundings": [
+        5,
+        11,
+        6
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 6,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 0,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 22,
+      "fundings": [
+        5,
+        11,
+        6
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 6,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 0,
+      "transfers": []
+    }
+  },
+  {
+    "label": "lopsided-distribute-22",
+    "caller": 3,
+    "method": "distribute",
+    "args": [],
+    "transaction": "0xb9ba7be6af62f8687f451133d072066940f85ef05cbae17a839bb5951bb1823a",
+    "state_before": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        1,
+        3,
+        12
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        1,
+        3,
+        12
+      ],
+      "funded_total": 22,
+      "fundings": [
+        5,
+        11,
+        6
+      ],
+      "phase": "ACTIVE",
+      "pool_balance": 6,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 0,
+      "transfers": []
+    },
+    "state": {
+      "assessment": {
+        "claims": {
+          "anchors": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "claims": [
+            1,
+            3,
+            7
+          ]
+        },
+        "source": {
+          "claimants": [
+            "Aster",
+            "Briar",
+            "Cedar"
+          ],
+          "clauses": [
+            "Aster's finalized eligible claim was five whole credits and four whole credits of it have already been reimbursed; retain only the unpaid remainder.",
+            "Briar's old tentative claim of eight credits was cancelled. Its final replacement is an eligible unpaid claim of three whole credits, with no completed reimbursement.",
+            "Cedar's finalized eligible claim was eleven whole credits. A completed reimbursement of four whole credits reduced that same obligation; the remaining amount is still unpaid and eligible."
+          ],
+          "pool": "restitution-pool"
+        }
+      },
+      "awarded": [
+        2,
+        6,
+        14
+      ],
+      "configuration": {
+        "beneficiaries": [
+          "0xb171e63a5cb0cb546f18807503710b4e7829f8d9",
+          "0x9bb899091b82b8598e87be095cba28003379205d",
+          "0x0167959fa07c4128eb03e82a4359acdbf2239b37"
+        ],
+        "endowment_ticks": 22,
+        "labels": [
+          "Aster",
+          "Briar",
+          "Cedar"
+        ],
+        "pool": "restitution-pool",
+        "repository": "ehsanisildur-ux/half-weir",
+        "sha256": "81a02e497da370f8f7bb96c9ff63bcf74e8e955250f29655587e5f7395f9d6f9",
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/half-weir/8376c6b5046439781cbfbf4ff1a1655aaaa85fcb/fixtures/lopsided.json"
+      },
+      "credits": [
+        2,
+        6,
+        14
+      ],
+      "funded_total": 22,
+      "fundings": [
+        5,
+        11,
+        6
+      ],
+      "phase": "SATISFIED",
+      "pool_balance": 0,
+      "rounds": [
+        {
+          "delta": [
+            1,
+            2,
+            2
+          ],
+          "funded_total": 5,
+          "regime": "AWARDS",
+          "target": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "delta": [
+            0,
+            1,
+            10
+          ],
+          "funded_total": 16,
+          "regime": "LOSSES",
+          "target": [
+            1,
+            3,
+            12
+          ]
+        },
+        {
+          "delta": [
+            1,
+            3,
+            2
+          ],
+          "funded_total": 22,
+          "regime": "LOSSES",
+          "target": [
+            2,
+            6,
+            14
+          ]
+        }
+      ],
+      "sponsor": "0xbc116215a4c0f9a5e062e79d159d7cc7afbc9402",
+      "sponsor_balance": 0,
+      "transfers": []
+    }
+  }
+]
